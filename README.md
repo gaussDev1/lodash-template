@@ -4,7 +4,7 @@ Handmade `_.template()` without full lodash source.
 There is also [custom lodash build](https://lodash.com/custom-builds) `lodash include=template`, 
 but it returns too dirty result.
 
-`npm i lodash-template-v4.5.1`
+`npm i lodash-template2`
 
 Potential fix for CVE-2021-23337	
 
