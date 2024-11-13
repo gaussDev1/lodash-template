@@ -1,5 +1,5 @@
 {
-    "name": "lodash-template",
+    "name": "lodash-template-v4.5.1",
     "version": "1.0.0",
     "description": "_.template without full lodash source.",
     "homepage": "http://lodash.com",
@@ -25,6 +25,11 @@
             "name": "John-David Dalton",
             "email": "john.david.dalton@gmail.com",
             "web": "http://allyoucanleet.com/"
+        },
+        {
+            "name": "Ivan Kelava",
+            "email": "ivan.kelava@gauss.dev",
+            "web": ""
         }
     ],
     "bugs": {
@@ -32,7 +37,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/azproduction/lodash-template.git"
+        "url": "https://github.com/gaussDev1/lodash-template"
     },
     "directories": {
         "test": "./test"
