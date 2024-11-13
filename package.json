@@ -1,6 +1,6 @@
 {
-    "name": "lodash-template-v4.5.1",
-    "version": "1.0.0",
+    "name": "lodash-template@4.5.1",
+    "version": "1.0.2",
     "description": "_.template without full lodash source.",
     "homepage": "http://lodash.com",
     "main": "./index",
