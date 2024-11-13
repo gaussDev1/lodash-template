@@ -326,7 +326,8 @@ function template(text, data, options) {
     if (!hasVariable) {
         variable = 'obj';
         if (isEvaluating) {
-            source = 'with (' + variable + ') {\n' + source + '\n}\n';
+            // Instead of using 'with', explicitly reference the data object
+            source = 'function(obj) {\n' + source + '\n}';
         }
         else {
             // avoid a with-statement by prepending data object references to property names
